@@ -589,7 +589,7 @@ if(/\..+\/(?:index|user)/i.test(window.location.href)) {
     $(document).ready(function() {
         $('table tbody tr').on('mouseenter', function(e) {
             var id = $(this).data('thumb');
-            var lnk = 'https://w0bm.com/thumbs/' + id + '.gif';
+            var lnk = 'https://w0bm.janeric.de/thumbs/' + id + '.gif';
             var loc = get_loc(e);
             $(document.body).prepend('<div id="thumb"></div>');
             $('div#thumb').prepend('<img id="thumb"/>');
